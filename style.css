@@ -28,7 +28,7 @@
 
 body{
     background-color: #F0F2DC;
-    margin: 0%;
+    margin: 0;
 }
 
 #menu {
@@ -49,43 +49,46 @@ body{
     color: #BF5E5E;      
 }
 
-body h1 {
-    color: #70735F;
-    text-align: center;
-    font-size: 100px;
-    margin-top: 20px;
-    font-family: bodoni-moda-sc-fuente; 
-} 
-
-footer {
-    background-color: #dfe0ce;
-    color: #000000;
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    display: flex;
-    height: 30px;
+#menu a:hover {
+    color: #8C4242;      
 }
-
-footer h4 {
-    font-size: 12px;
-    margin: 1px 0;
-    padding: 7px;
-    text-align: justify;
-}
-
 
 #inicio {
     text-align: center;
     margin: 20px;
     padding: 20px;
 }
-/* #inicio img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-} */
+
+#card_inicio {
+    padding: 0px 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-color: #dfe0ce;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+#card_inicio h1 {
+    color: #70735F;
+    text-align: start;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: bodoni-moda-sc-fuente; 
+    align-items: flex-start;
+} 
+
+ #card_inicio img {
+   max-width: 300px;   
+    width: 100%;        
+    height: auto;       
+    display: block;
+    margin: 0 auto;  
+    padding: 0;
+} 
+
 
 #sobre_mi {
     padding: 20px;
@@ -101,4 +104,23 @@ footer h4 {
     line-height: 1.3;
     width: 75%;
     display: block;
+}
+
+
+footer {
+    background-color: #dfe0ce;
+    color: #BF5E5E;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    height: 30px;
+}
+
+footer h4 {
+    font-size: 12px;
+    margin: 1px 0;
+    padding: 7px;
+    text-align: justify;
 }
