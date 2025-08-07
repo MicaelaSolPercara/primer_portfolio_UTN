@@ -97,12 +97,12 @@ body{
 
 #sobre_mi p {
     text-align: justify;
-    margin: 20px;
+    
     font-family: old-standard-tt-regular;
     font-size: 20px;
     color: #8C4242;
     line-height: 1.3;
-    width: 75%;
+    width: 100%;
     display: block;
 }
 
@@ -123,4 +123,12 @@ footer h4 {
     margin: 1px 0;
     padding: 7px;
     text-align: justify;
+}
+
+
+
+.card {
+    
+    background-color: #F0F2DC;
+    border-color: #dfe0ce;
 }
