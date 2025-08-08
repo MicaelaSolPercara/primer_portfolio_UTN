@@ -62,7 +62,7 @@ body{
 #card_inicio {
     padding: 0px 20px;
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
     border-color: #dfe0ce;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -97,7 +97,6 @@ body{
 
 #sobre_mi p {
     text-align: justify;
-    
     font-family: old-standard-tt-regular;
     font-size: 20px;
     color: #8C4242;
@@ -131,4 +130,9 @@ footer h4 {
     
     background-color: #F0F2DC;
     border-color: #dfe0ce;
+}
+
+.carrusel-item img {
+    width: 10px;
+    height: 10px;
 }
