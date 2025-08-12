@@ -39,14 +39,25 @@ body{
     padding-top: 50px;
 }
 
+main {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
 
 #menu {
     background-color: #dfe0ce;
     padding: 10px;
     width: 100%;
+    height: 60px;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
+
+.navbar.bg-light {
+    background-color: #dfe0ce;
+}
+
 
 #menu ol {
     display: flex;
@@ -55,6 +66,8 @@ body{
     padding: 0;
     margin: 0;
 }
+
+
 
 #menu a {
     color: #BF5E5E;      
@@ -135,6 +148,7 @@ footer {
     bottom: 0;
     display: flex;
     height: 30px;
+    z-index: 1000;
 }
 
 footer h4 {
@@ -209,5 +223,6 @@ footer h4 {
             padding: 30px 40px;
             font-size: 18px;
             max-width: 900px;
+            list-style: none;
         }
     }
