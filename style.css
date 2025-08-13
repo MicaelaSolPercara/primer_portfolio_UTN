@@ -173,6 +173,11 @@ footer h4 {
     height: 10px;
 }
 
+#contacto ol {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+}
 
 
     @media screen and (min-width: 769px) {
@@ -192,14 +197,24 @@ footer h4 {
             display: block;
         }
 
+        #habilidades {
+            padding: 30px 40px;
+
+        }
+
+        #experiencia {
+            padding: 30px 40px;
+
+        }
+
         
         #contacto {
             padding: 30px 40px;
             font-size: 18px;
             max-width: 900px;
             display: flex;
-            flex-direction: row;
-            gap: 20px;
+            flex-direction: column;
+            gap: 5px;
         }
     }
 
@@ -218,11 +233,21 @@ footer h4 {
             display: block;
         }
 
+        #habilidades {
+            padding: 30px 40px;
+
+        }
+
+        #experiencia {
+            padding: 30px 40px;
+
+        }
+
+
         
         #contacto {
             padding: 30px 40px;
             font-size: 18px;
             max-width: 900px;
-            list-style: none;
         }
     }
